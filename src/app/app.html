@@ -1,0 +1,29 @@
+<main>
+  <!-- sidebar component with profile, contact, and social links -->
+  <sidebar />
+
+  <!-- main content area including navbar and routed pages -->
+  <div class="main-content">
+    <!-- top navigation bar with links to different sections -->
+    <nav class="navbar">
+      <ul class="navbar-list">
+        @for (page of ['', 'resume', 'project', 'contact']; track $index) {
+          <li class="navbar-item">
+            <!-- active router link highlights current page -->
+            <button
+              class="navbar-link"
+              [routerLink]="page"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              {{ page === '' ? 'About' : (page | titlecase) }}
+            </button>
+          </li>
+        }
+      </ul>
+    </nav>
+
+    <!-- dynamic page content rendered here -->
+    <router-outlet />
+  </div>
+</main>
