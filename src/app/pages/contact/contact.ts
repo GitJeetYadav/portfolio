@@ -15,7 +15,7 @@ export class Contact implements OnInit {
 
   constructor(
     private fb: FormBuilder,
-    private firebaseService: Firebase,
+    // private firebaseService: Firebase,
   ) {}
 
   ngOnInit() {
@@ -30,7 +30,8 @@ export class Contact implements OnInit {
     this.isFormSubmit.set(true);
     if (this.contactForm.valid) {
       try {
-        await this.firebaseService.sendMessage(this.contactForm.value);
+        console.log('Value are as given',this.contactForm.value)
+        // await this.firebaseService.sendMessage(this.contactForm.value); will implement later
         this.contactForm.reset();
         this.isFormSubmit.set(false);
       } catch (err: any) {
