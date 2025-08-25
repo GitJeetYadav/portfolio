@@ -9,14 +9,14 @@ export const profile = {
     // stackoverflow: 'https://stackoverflow.com/users/23988872/ravi-gaud',
     linkedin: 'https://www.linkedin.com/in/jitendra-yadav-490167122/',
     twitter: 'https://twitter.com/GaudRavi09',
-    instagram: 'https://www.instagram.com/gaudravi09/',
-    facebook: 'https://www.facebook.com/GaudRavi09',
+    instagram: 'https://www.instagram.com/mrjeet_yadav?igsh=MWY4MTN1cmVmeGl2ag==',
+    facebook: 'https://www.facebook.com/share/1QMSgBHPxw/',
   },
 };
 
 export const projects = [
-  {
-    name: 'CardioVisual',
+   {
+    name: 'Propell',
     image: 'https://picsum.photos/200/150',
     downloads: '100k',
     appStoreLink: 'https://apps.apple.com/us/app/cardiovisual-heart-health/id1009028152',
@@ -24,7 +24,15 @@ export const projects = [
     playStoreLink: 'https://play.google.com/store/apps/details?id=com.cardiovisual.app',
   },
   {
-    name: 'Rewaa POS',
+    name: 'Smart Building',
+    image: 'https://picsum.photos/200/150',
+    downloads: '100k',
+    appStoreLink: 'https://apps.apple.com/us/app/cardiovisual-heart-health/id1009028152',
+    subHeading: 'Health Education Application',
+    playStoreLink: 'https://play.google.com/store/apps/details?id=com.cardiovisual.app',
+  },
+  {
+    name: 'Vid-Optima',
     image: 'https://picsum.photos/200/150',
     downloads: '6k',
     subHeading: 'Retail Management Software',
@@ -33,11 +41,43 @@ export const projects = [
       'https://apps.apple.com/us/app/%D9%86%D9%82%D8%A7%D8%B7-%D8%A7%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D9%86-%D8%B1%D9%88%D8%A7%D8%A1-rewaa-pos/id1658257539',
   },
   {
-    name: 'MyGolf2u',
+    name: 'Metasys',
     image: 'https://picsum.photos/200/150',
     downloads: '10k',
     subHeading: 'A Better Golfing Experience',
     playStoreLink: 'https://play.google.com/store/apps/details?id=com.brite.mygolf2u&gl=US',
     appStoreLink: 'https://apps.apple.com/us/app/mygolf2u/id1092380543',
+  },
+  {
+    name: 'Shap Shap',
+    image: 'https://picsum.photos/200/150',
+    downloads: '100k',
+    appStoreLink: 'https://apps.apple.com/us/app/cardiovisual-heart-health/id1009028152',
+    subHeading: 'Health Education Application',
+    playStoreLink: 'https://play.google.com/store/apps/details?id=com.cardiovisual.app',
+  },
+  {
+    name: 'Kidsie',
+    image: 'https://picsum.photos/200/150',
+    downloads: '100k',
+    appStoreLink: 'https://apps.apple.com/us/app/cardiovisual-heart-health/id1009028152',
+    subHeading: 'Health Education Application',
+    playStoreLink: 'https://play.google.com/store/apps/details?id=com.cardiovisual.app',
+  },
+  {
+    name: 'Fantasy King',
+    image: 'https://picsum.photos/200/150',
+    downloads: '100k',
+    appStoreLink: 'https://apps.apple.com/us/app/cardiovisual-heart-health/id1009028152',
+    subHeading: 'Health Education Application',
+    playStoreLink: 'https://play.google.com/store/apps/details?id=com.cardiovisual.app',
+  },
+  {
+    name: 'Angelium',
+    image: 'https://picsum.photos/200/150',
+    downloads: '100k',
+    appStoreLink: 'https://apps.apple.com/us/app/cardiovisual-heart-health/id1009028152',
+    subHeading: 'Health Education Application',
+    playStoreLink: 'https://play.google.com/store/apps/details?id=com.cardiovisual.app',
   },
 ];
