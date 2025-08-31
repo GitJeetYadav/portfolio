@@ -1,11 +1,6 @@
 <main>
-  <!-- sidebar component with profile, contact, and social links -->
-  <sidebar />
 
-  <!-- main content area including navbar and routed pages -->
-  <div class="main-content">
-    <!-- top navigation bar with links to different sections -->
-    <nav class="navbar">
+   <nav class="navbar">
       <ul class="navbar-list">
         @for (page of ['', 'resume', 'project', 'contact']; track $index) {
           <li class="navbar-item">
@@ -22,6 +17,12 @@
         }
       </ul>
     </nav>
+  <!-- sidebar component with profile, contact, and social links -->
+  <sidebar />
+
+  <!-- main content area including navbar and routed pages -->
+  <div class="main-content">
+    <!-- top navigation bar with links to different sections -->
 
     <!-- dynamic page content rendered here -->
     <router-outlet />

@@ -16,7 +16,7 @@ This is a fully responsive personal portfolio website built with **Angular** and
 
 ## 🚀 Demo
 
-[Live Demo](https://gaudravi-dev.web.app)
+[Live Demo](https://GitJeetYadav-dev.web.app) // need to change this 
 
 ---
 
@@ -36,7 +36,7 @@ Follow these steps to clone and run this project locally:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/GaudRavi09/portfolio
+git clone https://github.com/GitJeetYadav/portfolio
 cd portfolio
 ```
 

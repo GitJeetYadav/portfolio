@@ -6,9 +6,9 @@ export const profile = {
   email: 'jitendra.4822@gmail.com',
   address: 'Indore, Madhya Pardesh, India',
   socials: {
-    // stackoverflow: 'https://stackoverflow.com/users/23988872/ravi-gaud',
+    // stackoverflow: 'https://stackoverflow.com',
     linkedin: 'https://www.linkedin.com/in/jitendra-yadav-490167122/',
-    twitter: 'https://twitter.com/GaudRavi09',
+    twitter: '',
     instagram: 'https://www.instagram.com/mrjeet_yadav?igsh=MWY4MTN1cmVmeGl2ag==',
     facebook: 'https://www.facebook.com/share/1QMSgBHPxw/',
   },
